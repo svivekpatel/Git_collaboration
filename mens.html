@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+          width: 305px;
+
+        }
+        body{
+            background: rgb(3,1,1);
+            background: linear-gradient(90deg, rgba(3,1,1,1) 0%, rgba(97,68,182,1) 49%, rgba(8,8,8,1) 100%);
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .box{
+             margin-left: 20px;
+             margin-right: 20px;
+             margin-top: 100px;
+             cursor: pointer;
+            background-color: transparent;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        }
+
+        h2{
+            color: black;
+
+            font-size: 20px;
+        }
+
+        p{
+            color: black ;
+
+            font-size: 25px;
+        }
+        span{
+            color: gray;
+        }
+        .text{
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+          
+        #btn{
+            text-align: center;
+            align-self: flex-end;
+            justify-content: center;
+            margin-right: 15px;
+            
+        }
+        button{
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+         
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="https://cdn.shopify.com/s/files/1/0752/6435/products/PortoBeige_1d7ebe25-6d3c-47e3-829e-998ce1238782.jpg?v=1631124714" alt="Error"/>
+        <div class="text">
+        <h2>Pause</h2>
+        <p style="color:gray">Men Printed Shirt</p>
+        <p>$50 <span style="text-decoration: line-through;margin-left: 10px;margin-right: 10px;">$170</span>  <span style="color:green">-76%</span></p>
+    </div>
+    </div>
+
+    <div class="box">
+        <img src="data:image/jpeg;base64,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" alt="Error"/>
+        <div class="text">
+        <h2>Cotton King</h2>
+        <p style="color:gray">Men Double Shade Shirt</p>
+        <p>$50  <span style="text-decoration: line-through;margin: 10px; ;">$170</span><span style="color:green">-76%</span></p>
+    </div>
+    </div>
+    <div id="btn"><a href="navbar.html"> <button>Home</button> </a></div>
+</body>
+</html>
